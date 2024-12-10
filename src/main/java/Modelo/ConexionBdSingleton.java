@@ -9,13 +9,10 @@ public class ConexionBdSingleton {
     private static ConexionBdSingleton instance;
     private Connection cn;
 
-      private String url = "jdbc:sqlserver://FRANCO\\SQLEXPRESS:1433;" +
-                        "database=DenunciasDb;" +
-                        "trustServerCertificate=true;" +
-                        "encrypt=true;";
+      private String url = "jdbc:sqlserver://localhost:1433;database=DenunciasDb";
   
-    private String user = "xz";
-    private String psw = "xz";
+    private String user = "sa";
+    private String psw = "123456";
     
     public ConexionBdSingleton()throws SQLException{
         
