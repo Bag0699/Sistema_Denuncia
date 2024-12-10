@@ -19,7 +19,7 @@ public class Proxy_agresor extends javax.swing.JFrame {
     public Proxy_agresor() {
         initComponents();
         setLocationRelativeTo(null);
-        setTitle("SISTEMA DE DENUNCIA - USUARIO");
+        setTitle("SISTEMA DE DENUNCIA - AGRESOR");
         controlador = new AgresorControlador();
     }
 
